@@ -1,0 +1,9 @@
+<h1> 글자를 세봅시다 </h1>
+<a href = "{% url 'about'%}"> ABOUT </a>
+<form action = "{%url 'result'%}"> <!--폼의 액션을 지정해줌-->
+    <textarea cols = "20" rows = "20" name = "fullText">
+        
+    </textarea>
+    <br/>
+    <input type = "submit" name = "command" values = "submit" ></input>
+</form>
